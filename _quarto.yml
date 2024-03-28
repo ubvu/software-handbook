@@ -18,13 +18,14 @@ book:
   page-footer:
     left:
       - text: "CC0 Public Domain Dedication"
-        href: "https://creativecommons.org/publicdomain/zero/1.0/legalcode"
+        href: "creativecommons.org/publicdomain/zero/1.0/legalcode"
     right:
       - text: "By VU & Liberate Science GmbH"
   chapters:
     - index.qmd
     - part: "Chapters"
       chapters:
+        - chapters/benefits.qmd
         - chapters/example.qmd
     - contributing.qmd
     - references.qmd

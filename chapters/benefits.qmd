@@ -1,0 +1,18 @@
+# RSM helps you
+
+## Personal benefits
+
+1. RSM streamlines your research activities. It saves you time in locating and understanding your code. 
+2. RSM ensures your software is understandable and usable across diverse research teams.
+3. By managing software in a structured manner, you mitigate the risk of losing essential components over time. 
+4. RSM allows you to get credit for your work which can lead to increased recognition, positioning you as a conscientious and forward-thinking researcher.
+5. RSM aligns with FAIR principles, boosting your research's discoverability and impact while fulfilling funder requirements and the integrity code for researchers (Nederlandse Gedragscode Wetenschappelijke Integriteit, NGWI).
+
+## Collective benefits
+
+1. RSM ensures long-term accessibility of research findings for others; 
+2. RSM encourages adherence to community standards or to establish community standards and best practices, reducing errors and elevating the quality of research output;
+3. RSM promotes transparency, bolstering trust and facilitating a clearer understanding of research methodologies;
+4. RSM facilitates reproducibility, strengthening the robustness of scientific findings;
+5. Combined with FAIR principles, RSM contributes to global efforts, accelerating the discoverability and usability of research outputs.
+
