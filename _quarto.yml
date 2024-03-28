@@ -26,6 +26,12 @@ book:
     - part: "Chapters"
       chapters:
         - chapters/benefits.qmd
+        - chapters/risp1.qmd
+        - chapters/risp2.qmd
+        - chapters/risp3.qmd
+        - chapters/risp4.qmd
+        - chapters/risp5.qmd
+        - chapters/risp6.qmd
         - chapters/example.qmd
     - contributing.qmd
     - references.qmd
