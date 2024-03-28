@@ -10,25 +10,58 @@
     ]
   },
   {
-    "objectID": "chapters/example.html",
-    "href": "chapters/example.html",
-    "title": "1  Example chapter",
+    "objectID": "chapters/benefits.html",
+    "href": "chapters/benefits.html",
+    "title": "1  RSM helps you",
     "section": "",
-    "text": "1.1 Section\nThis is an example section. Once you include a section this way there will be a table of contents on the page too!\nYou can use all kinds of helpful tools to highlight information - these are called “Callouts”",
+    "text": "1.1 Personal benefits",
     "crumbs": [
       "Chapters",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Example chapter</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>RSM helps you</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/benefits.html#personal-benefits",
+    "href": "chapters/benefits.html#personal-benefits",
+    "title": "1  RSM helps you",
+    "section": "",
+    "text": "RSM streamlines your research activities. It saves you time in locating and understanding your code.\nRSM ensures your software is understandable and usable across diverse research teams.\nBy managing software in a structured manner, you mitigate the risk of losing essential components over time.\nRSM allows you to get credit for your work which can lead to increased recognition, positioning you as a conscientious and forward-thinking researcher.\nRSM aligns with FAIR principles, boosting your research’s discoverability and impact while fulfilling funder requirements and the integrity code for researchers (Nederlandse Gedragscode Wetenschappelijke Integriteit, NGWI).",
+    "crumbs": [
+      "Chapters",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>RSM helps you</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/benefits.html#collective-benefits",
+    "href": "chapters/benefits.html#collective-benefits",
+    "title": "1  RSM helps you",
+    "section": "1.2 Collective benefits",
+    "text": "1.2 Collective benefits\n\nRSM ensures long-term accessibility of research findings for others;\nRSM encourages adherence to community standards or to establish community standards and best practices, reducing errors and elevating the quality of research output;\nRSM promotes transparency, bolstering trust and facilitating a clearer understanding of research methodologies;\nRSM facilitates reproducibility, strengthening the robustness of scientific findings;\nCombined with FAIR principles, RSM contributes to global efforts, accelerating the discoverability and usability of research outputs.",
+    "crumbs": [
+      "Chapters",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>RSM helps you</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/example.html",
+    "href": "chapters/example.html",
+    "title": "2  Example chapter",
+    "section": "",
+    "text": "2.1 Section\nThis is an example section. Once you include a section this way there will be a table of contents on the page too!\nYou can use all kinds of helpful tools to highlight information - these are called “Callouts”",
+    "crumbs": [
+      "Chapters",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Example chapter</span>"
     ]
   },
   {
     "objectID": "chapters/example.html#section",
     "href": "chapters/example.html#section",
-    "title": "1  Example chapter",
+    "title": "2  Example chapter",
     "section": "",
     "text": "Note\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nWarning with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nimportant with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default.\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "Chapters",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Example chapter</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Example chapter</span>"
     ]
   },
   {
