@@ -1,8 +1,12 @@
 # Welcome {.unnumbered}
 
-This is a template for creating (hand)books styled for VU Amsterdam. 
+Research software management (RSM) is a structured and strategic approach to handling the creation, utilisation, and preservation of software in the research process. 
 
-To get started you only need a GitHub account. You can [find the template directly on GitHub]({{< meta book.repo-url >}}). If you need any help to set it up, contact [chris@libscie.org](mailto:chris@libscie.org).
+Research software is used within all research domains and across all the phases of research. Several aspects of its development, maintenance and curation require careful planning and consideration. 
+
+VU Amsterdam facilitates researchers to adopt best practices on research software management and sharing, irrespective of whether the code is proprietary or open source.
+
+VU Amsterdam offers support in software development, operations, storage, registration and publishing. Questions about Gitlab, Github, Bitbucket, RSD, etc. can be addressed to either the University Library or computing support. Contact us via Research Data Support or ask your data steward for more information.
 
 
 <!-- ## Contributors -->
