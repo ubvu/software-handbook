@@ -1,1 +1,45 @@
 # Prepare your proposal
+<i class="fa-solid fa-file-spreadsheet"></i>
+
+## Incorporate your Software Management Plan
+
+WHY
+How you are planning to use and create software throughout your project is something you should mention in your data management plan that goes with your Project Proposal, or a separate software management plan (SMP). For example, expectations regarding how long the software should last and what is required to accomplish this. Do you need a software engineer to support your work? Or will you do large (costly) calculations which require <a href="https://bazis.readthedocs.io/" target="_blank">High-Performance Computing</a>?
+With an SMP you can establish a structured way of developing research software and make important decisions explicitly.
+ 
+
+WHAT
+Whether you are writing an analysis script, computational workflow or a standalone tool, there are a few general questions that should be considered and discussed when you are planning your project (and updated during your research):
+- Purpose. What is the current reason or expected end-use for developing the software?
+- Reliability: The effect of software failure and/or non-maintenance on (e.g., risk of harm, reputation damage, etc)
+- Maintenance: The long-term effort (during or after project) needed to maintain the software as long as it might be used as a script, standalone tool or dependency.
+
+More about creating SMPs can be found <a href="https://zenodo.org/doi/10.5281/zenodo.7038280" target="_blank">here</a>.
+The University is currently formulating more elaborate standardized Software Management Plans. Please reach out if you want to use an SMP to structure the development of your research software.
+
+
+
+::: {.callout-caution collapse="true"}
+### Software Management Plan Guide
+
+```mermaid
+flowchart TD
+
+  st(Start)
+  ra[(risk analysis, version control, purpose, license)]
+  ts(Type of software)
+  ou(Other users)
+  od(Other developers)
+  dd(Deployment docs, user docs, repository, packaging, citation)
+  ms(Maintenance)
+
+  st --> ra
+  ra --> ts
+  ts -- tool --> od
+  ts -- workflow --> ou
+  ou -- recommended --> dd
+  od -- recommended --> dd
+  dd -- long-term --> ms
+```
+
+:::
