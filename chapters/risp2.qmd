@@ -31,6 +31,7 @@ flowchart LR
   C --> E[Result two]
 ```
 
+:::
 
 ```{mermaid}
 flowchart TD
@@ -52,4 +53,3 @@ flowchart TD
   dd -- long-term --> ms
 ```
 
-:::
