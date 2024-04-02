@@ -58,7 +58,7 @@
     "href": "chapters/risp2.html#incorporate-your-software-management-plan",
     "title": "3  Prepare your proposal",
     "section": "",
-    "text": "Software Management Plan Guide\n\n\n\n\n\nflowchart TD\n\n  st(Start)\n  ra[(risk analysis, version control, purpose, license)]\n  ts(Type of software)\n  ou(Other users)\n  od(Other developers)\n  dd(Deployment docs, user docs, repository, packaging, citation)\n  ms(Maintenance)\n\n  st --&gt; ra\n  ra --&gt; ts\n  ts -- tool --&gt; od\n  ts -- workflow --&gt; ou\n  ou -- recommended --&gt; dd\n  od -- recommended --&gt; dd\n  dd -- long-term --&gt; ms",
+    "text": "Software Management Plan Guide\n\n\n\n\n\n\n\n\n\n\nflowchart TD\n\n  st(Start)\n  ra[(risk analysis, version control, purpose, license)]\n  ts(Type of software)\n  ou(Other users)\n  od(Other developers)\n  dd(Deployment docs, user docs, repository, packaging, citation)\n  ms(Maintenance)\n\n  st --&gt; ra\n  ra --&gt; ts\n  ts -- tool --&gt; od\n  ts -- workflow --&gt; ou\n  ou -- recommended --&gt; dd\n  od -- recommended --&gt; dd\n  dd -- long-term --&gt; ms",
     "crumbs": [
       "Chapters",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Prepare your proposal</span>"

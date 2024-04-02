@@ -69,6 +69,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -241,7 +244,12 @@ Software Management Plan Guide
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<pre class="mermaid"><code>flowchart TD
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
 
   st(Start)
   ra[(risk analysis, version control, purpose, license)]
@@ -257,7 +265,13 @@ Software Management Plan Guide
   ts -- workflow --&gt; ou
   ou -- recommended --&gt; dd
   od -- recommended --&gt; dd
-  dd -- long-term --&gt; ms</code></pre>
+  dd -- long-term --&gt; ms
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
