@@ -1,7 +1,4 @@
-# Prepare your proposal
-<i class="fa-solid fa-file-spreadsheet"></i>
-<i class="fa-solid fa-table"></i>
-{{< fa folder >}}
+# Prepare your proposal <i class="fa-solid fa-file-spreadsheet"></i> <i class="fa-solid fa-table"></i>
 
 ## Incorporate your Software Management Plan
 
