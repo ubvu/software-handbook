@@ -1,1 +1,3 @@
-# Explore your idea <i class="fa-regular fa-lightbulb"></i>
+# Explore your idea 
+
+<i class="fa-regular fa-lightbulb"></i>
