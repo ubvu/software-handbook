@@ -10,6 +10,7 @@ With an SMP you can establish a structured way of developing research software a
 
 WHAT
 Whether you are writing an analysis script, computational workflow or a standalone tool, there are a few general questions that should be considered and discussed when you are planning your project (and updated during your research):
+
 - Purpose. What is the current reason or expected end-use for developing the software?
 - Reliability: The effect of software failure and/or non-maintenance on (e.g., risk of harm, reputation damage, etc)
 - Maintenance: The long-term effort (during or after project) needed to maintain the software as long as it might be used as a script, standalone tool or dependency.
@@ -21,6 +22,15 @@ The University is currently formulating more elaborate standardized Software Man
 
 ::: {.callout-caution collapse="true"}
 ### Software Management Plan Guide
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
 
 ```{mermaid}
 flowchart TD
