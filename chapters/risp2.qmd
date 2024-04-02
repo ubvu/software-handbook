@@ -22,7 +22,7 @@ The University is currently formulating more elaborate standardized Software Man
 ::: {.callout-caution collapse="true"}
 ### Software Management Plan Guide
 
-```mermaid
+```{mermaid}
 flowchart TD
 
   st(Start)
