@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.552">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -267,34 +267,25 @@ Software Management Plan Guide
 </div>
 </div>
 </div>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-
-  st(Start)
-  ra[(risk analysis, version control, purpose, license)]
-  ts(Type of software)
-  ou(Other users)
-  od(Other developers)
-  dd(Deployment docs, user docs, repository, packaging, citation)
-  ms(Maintenance)
-
-  st --&gt; ra
-  ra --&gt; ts
-  ts -- tool --&gt; od
-  ts -- workflow --&gt; ou
-  ou -- recommended --&gt; dd
-  od -- recommended --&gt; dd
-  dd -- long-term --&gt; ms
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
+<pre class="mermaid"><code>flowchart TB
+    c2--&gt;a1
+    subgraph Questions
+    a1--&gt;a2
+    end
+    subgraph Core requirement
+    c1(Start)--&gt;c2[Risk analysis, version control, purpose, license]
+    c2--&gt;c3{Type of software}
+    c3--workflow--&gt;c4[deployment docs, user docs]
+    c3--tool--&gt;c5[deployment docs, user docs, packaging, citation, support]
+    c4--&gt;c6{Multiple developers?}
+    c5--&gt;c6
+    c6-- Yes --&gt;c7[developer documentation, code quality]
+    c6-- No --&gt;c8{Offer support?}
+    c7--&gt;c8
+    c8-- Yes --&gt;c9[Maintenance]
+    c8-- No --&gt;c10(Finished)
+    c9--&gt;c10
+    end</code></pre>
 
 
 </section>
