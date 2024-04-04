@@ -32,23 +32,26 @@ flowchart LR
 
 :::
 
-```{mermaid}
-flowchart TD
-
-  st(Start)
-  ra[(risk analysis, version control, purpose, license)]
-  ts(Type of software)
-  ou(Other users)
-  od(Other developers)
-  dd(Deployment docs, user docs, repository, packaging, citation)
-  ms(Maintenance)
-
-  st --> ra
-  ra --> ts
-  ts -- tool --> od
-  ts -- workflow --> ou
-  ou -- recommended --> dd
-  od -- recommended --> dd
-  dd -- long-term --> ms
+```mermaid
+flowchart TB
+    c2-->a1
+    subgraph Questions
+    a1-->a2
+    end
+    subgraph Core requirement
+    c1(Start)-->c2[Risk analysis, version control, purpose, license]
+    c2-->c3{Type of software}
+    c3--workflow-->c4[deployment docs, user docs]
+    c3--tool-->c5[deployment docs, user docs, packaging, citation, support]
+    c4-->c6{Multiple developers?}
+    c5-->c6
+    c6-- Yes -->c7[developer documentation, code quality]
+    c6-- No -->c8{Offer support?}
+    c7-->c8
+    c8-- Yes -->c9[Maintenance]
+    c8-- No -->c10(Finished)
+    c9-->c10
+    end
 ```
+
 
