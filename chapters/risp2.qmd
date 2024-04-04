@@ -32,7 +32,7 @@ flowchart LR
 
 :::
 
-```mermaid
+```{mermaid}
 flowchart TB
     c2-->a1
     subgraph Questions
